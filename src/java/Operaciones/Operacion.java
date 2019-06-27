@@ -30,7 +30,7 @@ public class Operacion {
     @WebMethod(operationName = "Suma")
     public double Suma(@WebParam(name = "A") double A, @WebParam(name = "B") double B) {
         double Suma;
-        Suma = A + B;
+        Suma = A - B;
         return Suma;
     }
 
