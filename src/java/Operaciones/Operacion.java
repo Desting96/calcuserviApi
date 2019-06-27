@@ -29,9 +29,9 @@ public class Operacion {
      */
     @WebMethod(operationName = "Resta")
     public double Resta(@WebParam(name = "A") double A, @WebParam(name = "B") double B) {
-        double Suma;
-        Suma = A - B;
-        return Suma;
+        double res;
+        res = A - B;
+        return res;
     }
 
   
