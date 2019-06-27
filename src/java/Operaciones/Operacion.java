@@ -27,8 +27,8 @@ public class Operacion {
     /**
      * Web service operation
      */
-    @WebMethod(operationName = "Suma")
-    public double Suma(@WebParam(name = "A") double A, @WebParam(name = "B") double B) {
+    @WebMethod(operationName = "Resta")
+    public double Resta(@WebParam(name = "A") double A, @WebParam(name = "B") double B) {
         double Suma;
         Suma = A - B;
         return Suma;
